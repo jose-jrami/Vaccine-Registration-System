@@ -1,0 +1,57 @@
+Name: Jose Ramirez Estrada
+EE 104 Python project Class Project
+
+Reference: https://www.twilio.com/docs/sms/quickstart/python
+Reference: https://stackoverflow.com/questions/59631659/i-dont-understand-why-i-get-a-too-many-values-to-unpack-error
+
+About this code:
+
+# Module 2 VACCINATION 
+
+the input for the phonenumber must be a 10digit phone number without parnthesis ot dashes
+for example 8312224456.
+(Install twilio module) (pip install twilio)
+
+
+***MAKE SURE THAT THE FOLLOWING PYTHON MODULES ARE INSTALLED***
+
+from tkinter import *
+from openpyxl import *
+from datetime import date, datetime, timedelta (pip install datetime)
+import pandas as pd (pip install pandas)
+import os
+import smtplib, ssl
+from twilio.rest import Client (pip install twilio)
+
+IMPORTANT: for Email and SMS fucntion you need to craete essentially a burner Email that you will NOT EVER use for anythin peronal
+or importnat. For EMAIL to work with smtlib, ssl the email will need to be non secure. Google the steps for this. Also you must make 
+Twilio Account and buy a phone number and add funds to the account to send mesages with its API. you will need the accounts SSID and 
+auth token. This code does not include these keys and you need to use your own otherwise those feautures wont work. 
+
+Instructions: 
+- make sure that the modules above are installed 
+- run applications
+- sign in or register
+- click OK to exit! in the popup windiow to close login screen (unecessary screen after loging in)
+- Register or input information
+  - The phone number must be in a 10 digit format without dashes or parentheis ex. 0123456789
+  - enter email in regular email format ex. josedogsnop@gmail.com
+  - enter date in the follwoing format with dashes as shown (YYYY-MM-DD) ex. 2021-03-02
+  - submit
+  - proffesor toll to check a date will pop up. the original date that was inputed for the first
+    vaccine and the secon vaccine date are shown to the left in the black box in red letters for refrernce.
+  - Enter a date in the same format that i sthree days prior to the seconf vaccination date (YYYY-MM_DD)
+  - click OK to exit to close the date check screen
+- registartion form clears and is ready for a new registration
+
+
+ 
+- 
+
+
+
+
+
+
+ 
+             
